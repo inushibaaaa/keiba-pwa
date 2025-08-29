@@ -7,6 +7,8 @@ import Predict from './pages/Predict'
 import Settings from './pages/Settings'
 import Backtest from './pages/Backtest'
 import { hookServiceWorkerUpdate } from './sw-ready'
+import { registerSW } from 'virtual:pwa-register'
+registerSW({ immediate: true })
 
 hookServiceWorkerUpdate()
 

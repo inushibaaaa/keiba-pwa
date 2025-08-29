@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/lib/db.ts","./src/lib/types.ts","./src/logic/registry.ts","./src/pages/backtest.tsx","./src/pages/home.tsx","./src/pages/predict.tsx"],"errors":true,"version":"5.8.3"}

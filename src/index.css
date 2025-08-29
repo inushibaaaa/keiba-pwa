@@ -1,0 +1,11 @@
+/* v4 スタイルの読み込み */
+@import "tailwindcss";
+/* ← これを入れると v4 で base/components/utilities をまとめて読み込む */
+
+/* @apply でユーティリティを使う宣言（重要！） */
+@reference "tailwindcss/utilities";
+
+/* ここからあなたの共通クラス */
+.input{ @apply border rounded-lg px-3 py-2 w-full; }
+.btn{ @apply bg-sky-500 text-white rounded-xl px-4 py-2 hover:bg-sky-600 active:scale-[.99]; }
+.card{ @apply rounded-2xl border p-5 shadow-sm bg-white; }

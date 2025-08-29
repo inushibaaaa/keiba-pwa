@@ -1,0 +1,54 @@
+{
+  "races": [
+    {
+      "raceId": "202401010101",
+      "date": "20240101",
+      "course": "中山11R",
+      "distance": 1600,
+      "surface": "芝",
+      "classLabel": "G3"
+    }
+  ],
+  "entries": [
+    {
+      "raceId": "202401010101",
+      "horseId": "h1",
+      "horseName": "アルファ",
+      "timeIndex5": [92, 95, null, 101, 98],
+      "flags": { "checkValues": [95, 101, 98] }
+    },
+    {
+      "raceId": "202401010101",
+      "horseId": "h2",
+      "horseName": "ブラボー",
+      "timeIndex5": [88, 90, 91, 89, 92],
+      "flags": { "checkValues": [90, 91, 92] }
+    },
+    {
+      "raceId": "202401010101",
+      "horseId": "h3",
+      "horseName": "チャーリー",
+      "timeIndex5": [null, 87, 84, 85, 86],
+      "flags": { "checkValues": [86] }
+    },
+    {
+      "raceId": "202401010101",
+      "horseId": "h4",
+      "horseName": "デルタ",
+      "timeIndex5": [102, null, 99, 97, 96],
+      "flags": { "checkValues": [102, 99, 97, 96] }
+    }
+  ],
+  "results": [
+    {
+      "raceId": "202401010101",
+      "top3": ["デルタ", "アルファ", "ブラボー"],
+      "payouts": {
+        "単勝": 350,
+        "馬連": 1240,
+        "三連複": 2680,
+        "三連単": 15890
+      }
+    }
+  ]
+}

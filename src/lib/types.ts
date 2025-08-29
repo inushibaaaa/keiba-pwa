@@ -1,7 +1,14 @@
 export type RaceId = string
 export type HorseId = string
 
-export interface Race { raceId: RaceId; date: string; course: string; distance: number; surface: '芝'|'ダート'|'障害'; classLabel?: string }
+export interface Race {
+  raceId: RaceId;
+  date: string;
+  course?: string;       // ← 任意に
+  distance?: number;     // ← 任意に
+  surface?: '芝'|'ダート'|'障害'; // ← 任意に
+  classLabel?: string;
+}
 export interface Entry { raceId: RaceId; horseId: HorseId; horseName: string; timeIndex5?: (number|null)[]; timeIndexAvg?: number|null; flags?: Record<string, any> }
 export interface Result { raceId: RaceId; top3: string[]; payouts: Record<string, number> }
 
